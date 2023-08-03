@@ -5,9 +5,12 @@
     <classes>
       <class name="salesPackage.Flipcart1"/>
       <class name="salesPackage.Amazon1"/>
+<<<<<<< HEAD
        <class name="salesPackage.Ajio1"/>
         <class name="salesPackage.Myntra1"/>
          <class name="salesPackage.Meesho1"/>
+=======
+>>>>>>> branch 'master' of https://github.com/Shitalsangle306/KatrajProjectmaven.git
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

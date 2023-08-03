@@ -12,8 +12,13 @@ public class Myntra1 {
 	  
 	  WebDriver driver = new ChromeDriver();
 	  Reporter.log("myntra opening",true);
+<<<<<<< HEAD
 	  driver.get("https://www.myntra.com/");
 	  //driver.get("https://www.snapdeal.com/");
+=======
+//	  driver.get("https://www.myntra.com/");
+	  driver.get("https://www.snapdeal.com/");
+>>>>>>> branch 'master' of https://github.com/Shitalsangle306/KatrajProjectmaven.git
 	  Thread.sleep(7000);
 	  driver.close();
   }

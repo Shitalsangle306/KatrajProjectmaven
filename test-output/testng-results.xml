@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
@@ -20,4 +21,39 @@
       </class> <!-- salesPackage.Myntra1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
+=======
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[opening flipcart]]>
+    </line>
+    <line>
+      <![CDATA[opening amazon]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-08-02T15:15:46 IST" name="Suite" finished-at="2023-08-02T15:16:29 IST" duration-ms="43089">
+    <groups>
+    </groups>
+    <test started-at="2023-08-02T15:15:46 IST" name="Test" finished-at="2023-08-02T15:16:29 IST" duration-ms="43089">
+      <class name="salesPackage.Flipcart1">
+        <test-method signature="flipcarttest()[pri:0, instance:salesPackage.Flipcart1@9597028]" started-at="2023-08-02T15:15:46 IST" name="flipcarttest" finished-at="2023-08-02T15:16:08 IST" duration-ms="21350" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[opening flipcart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- flipcarttest -->
+      </class> <!-- salesPackage.Flipcart1 -->
+      <class name="salesPackage.Amazon1">
+        <test-method signature="amazonTest()[pri:0, instance:salesPackage.Amazon1@747ddf94]" started-at="2023-08-02T15:16:08 IST" name="amazonTest" finished-at="2023-08-02T15:16:29 IST" duration-ms="21700" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[opening amazon]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- amazonTest -->
+      </class> <!-- salesPackage.Amazon1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+>>>>>>> branch 'master' of https://github.com/Shitalsangle306/KatrajProjectmaven.git
 </testng-results>
