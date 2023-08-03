@@ -5,6 +5,9 @@
     <classes>
       <class name="salesPackage.Flipcart1"/>
       <class name="salesPackage.Amazon1"/>
+       <class name="salesPackage.Ajio1"/>
+        <class name="salesPackage.Myntra1"/>
+         <class name="salesPackage.Meesho1"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
