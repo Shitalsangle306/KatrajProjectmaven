@@ -7,13 +7,12 @@ import org.testng.annotations.Test;
 
 public class Meesho1 {
   @Test
-  public void EC_1234_meeshotest() throws InterruptedException 
+  public void meeshotest() throws InterruptedException 
   {
 	  WebDriver driver = new ChromeDriver();
-	  Reporter.log("myntra opening",true);
+	  Reporter.log("meesho opening",true);
 	  driver.get("https://www.meesho.com/");
-	 // driver.get("https://www.snapdeal.com/");
-	  driver.manage().deleteAllCookies();
+	 driver.manage().deleteAllCookies();
 	  Thread.sleep(7000);
 	  driver.close();
   }
